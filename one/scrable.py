@@ -18,6 +18,7 @@ if __name__ == '__main__':
     while True:
         my_word = input('Podaj wyraz: ').strip()
         wynik = scrable_score(my_word)
+        print('Wynik działania programu')
         print(f'Słowo {my_word} jest warte {wynik} w Scrable')
         shall_continue = input('Czy chcesz kont T/N: ')
         if shall_continue.lower() != 't':
