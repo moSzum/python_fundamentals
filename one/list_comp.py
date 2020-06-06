@@ -1,7 +1,7 @@
 lst1 = [5, 6, 7, 8, 9]
 dict_exmaple = {'Policja': 997, "Pizza": 384, "Mama": 567}
 
-tup = tuple(lst1)
+# tup = tuple(lst1)
 def kwadrat(lst):
     return [item ** 2 for item in lst]
 
